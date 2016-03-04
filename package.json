@@ -1,0 +1,26 @@
+{
+  "name": "node-by-example",
+  "private": true,
+  "scripts": {
+    "start": "gulp develop",
+    "deploy": "gulp deploy"
+  },
+  "devDependencies": {
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-front-matter": "1.3.0",
+    "gulp-gh-pages": "0.5.4",
+    "gulp-help": "1.6.1",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-live-server": "0.0.29",
+    "gulp-livereload": "3.8.1",
+    "gulp-markdown": "1.2.0",
+    "gulp-util": "3.0.7",
+    "gulp-watch": "4.3.5",
+    "jade": "1.11.0",
+    "marked": "0.3.5",
+    "moment": "2.11.1",
+    "run-sequence": "1.1.5",
+    "through2": "2.0.0"
+  }
+}
