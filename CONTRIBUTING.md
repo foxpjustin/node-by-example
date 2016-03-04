@@ -28,6 +28,7 @@ these examples, we don't want the end user to have to go digging for info about 
 * **ALWAYS** use current LTS versions features. As a goal we want to keep these docs up to date
 and not let them get stale. Make sure that if you use a new ECMAScript feature, its
 can be ran in vanilla node REPL.
+* **ALWAYS** start with `'use strict';`.
 * **ALWAYS** indent with 2 spaces.
 * **ALWAYS** use curly braces for multi-line if statements.
 * **ALWAYS** use single quotes for strings - except to avoid escaping.

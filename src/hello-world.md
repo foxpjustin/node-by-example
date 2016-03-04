@@ -4,6 +4,8 @@ Our first program is a very simple example, but it's the bare minimum to getting
 in Node.js. It will print the classic "Hello World" message.
 
 ```js
+'use strict';
+
 console.log('Hello World');
 ```
 
