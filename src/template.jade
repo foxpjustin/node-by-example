@@ -5,7 +5,8 @@ html(lang="en")
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
-    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css")
+    link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css")
+    link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css")
     link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/railscasts.min.css")
     script(src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js")
     style.
@@ -25,7 +26,9 @@ html(lang="en")
           a.navbar-brand(href="/" title="Node by Example") Node by Example
           ul.nav.navbar-nav.pull-md-right
             li.nav-item
-              a.nav-link(href="https://github.com/joshmanders/node-by-example") Contribute
+              a.nav-link(href="https://github.com/joshmanders/node-by-example", title="Node by Example on GitHub") #[span.fa.fa-github.fa-lg]
+            li.nav-item
+              a.nav-link(href="https://twitter.com/nodebyexample", title="Node by Example on Twitter") #[span.fa.fa-twitter.fa-lg]
       .container
         .row
           .col-md-3.toc-col
@@ -35,4 +38,4 @@ html(lang="en")
       
     nav.navbar-fixed-bottom.navbar-light.bg-faded(style={ 'padding-top': '20px' })
       p.text-md-center.text-muted
-        | <strong>Last Modified:</strong> #{modified}
+        | #[strong Last Modified] #[a(href="https://github.com/joshmanders/node-by-example/blob/master/src/#{filename}.md") #{modified}]

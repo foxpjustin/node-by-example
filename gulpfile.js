@@ -53,10 +53,11 @@ gulp.task('compile', false, (done) => {
       const locals = {
         title: file.meta.title || file.title,
         modified: moment(file.meta.modified || file.stat.mtime).format('dddd, MMMM D, YYYY'),
-        filename: 'docs',
+        filename: basename(file.relative, '.html'),
         toc: marked(tableOfContents, { renderer: renderer }),
         markdown: file.contents.toString()
       }
+
       const template = jade(readFile(resolve('./src/template.jade')))
       const path = (!!~file.path.indexOf('index') ? '.html' : '/index.html')
 
