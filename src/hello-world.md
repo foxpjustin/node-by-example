@@ -9,7 +9,7 @@ in Node.js. It will print the classic "Hello World" message.
 console.log('Hello World');
 ```
 
-[`console`](https://nodejs.org/api/console.html) is a global variable available in all modules.
+`console` is a global variable available in all modules. Read more about it in the [Node.js Docs](https://nodejs.org/dist/latest-v4.x/docs/api/console.html).
 
 To run the program, put the code in `hello-world.js` and run
 
