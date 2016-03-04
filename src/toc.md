@@ -5,6 +5,7 @@
 ##### Novice
 
 - [Hello World](/hello-world)
+- [Install Package With npm](/install-package-with-npm)
 
 ---
 ##### Intermediate
