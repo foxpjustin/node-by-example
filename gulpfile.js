@@ -65,12 +65,17 @@ gulp.task('compile', false, (done) => {
       return cb(null, file)
     }))
     .pipe(prettify({ indent_char: ' ', indent_size: 2 }))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist'))
     .pipe(livereload())
 })
 
+gulp.task('cname', false, () => {
+  return gulp.src('./src/CNAME')
+    .pipe(gulp.dest('./dist'))
+})
+
 gulp.task('build', 'Build pages.', (done) => {
-  run('clean', 'compile', done)
+  run('clean', 'compile', 'cname', done)
 })
 
 gulp.task('watch', false, () => {
