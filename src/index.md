@@ -1,11 +1,14 @@
-# Node by Example
+---
+title: Node by Example - Intro
+---
 
-Node by Example is a community driven resource to give you a hands-on introduction to Node.js. Heavily inspired by [Go by Example](https://gobyexample.com).
+#### Hello and welcome to Node by Example!
 
-## About Node.js
+Our end goal here is to provide an always up-to-date (in line with the current LTS release) list of examples sorted by skill level to help all walks of life get started in Node.js!
 
-Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+We do have a few caveats we'd like to warn you about first:
 
-## Contributors
+- We assume you have the basic understanding of the fundamentals of JavaScript.
+- Are using current LTS release of Node.js
 
-Thank you to the [community](https://github.com/joshmanders/node-by-example/graphs/contributors) for the content of this site.
+This project is relatively new, so content is scarce. But don't let that discourage you! If you're new to Node.js and would like to see certain things covered, or would like to contribute an example then please be sure to check out the [GitHub issues](https://github.com/joshmanders/node-by-example/issues)&nbsp;and follow us on [Twitter](https://twitter.com/nodebyexample)!
