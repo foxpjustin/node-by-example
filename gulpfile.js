@@ -85,7 +85,7 @@ gulp.task('develop', 'Develop in realtime!', (done) => {
 
 gulp.task('push', false, (done) => {
   return gulp.src('./dist/**/*')
-    .pipe(deploy({ branch: 'master' }))
+    .pipe(deploy({ branch: 'gh-pages' }))
 })
 
 gulp.task('deploy', 'Deploy recent changes.', (done) => {
