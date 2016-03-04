@@ -4,7 +4,7 @@ Our first program is a very simple example, but it's the bare minimum to getting
 in Node.js. It will print the classic "Hello World" message.
 
 ```js
-console.log(`Hello World`)
+console.log('Hello World');
 ```
 
 [`console`](https://nodejs.org/api/console.html) is a global variable available in all modules.
