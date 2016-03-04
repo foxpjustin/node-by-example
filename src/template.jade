@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
   head
-    title #{title} | Node by Example
+    title #{title}
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
@@ -22,19 +22,16 @@ html(lang="en")
     .container
       nav.navbar.navbar-full.navbar-fixed-top.navbar-dark
         .container
-          a.navbar-brand Node by Example
-          ul.nav.navbar-nav
-            li.nav-item(class={ active: filename === 'index' })
-              a.nav-link(href="/") Home
+          a.navbar-brand(href="/" title="Node by Example") Node by Example
           ul.nav.navbar-nav.pull-md-right
             li.nav-item
               a.nav-link(href="https://github.com/joshmanders/node-by-example") Contribute
       .container
-      .row
-        .col-md-3.toc-col
-          | !{toc}
-        .col-md-9.content-col
-          | !{markdown}
+        .row
+          .col-md-3.toc-col
+            | !{toc}
+          .col-md-9.content-col
+            | !{markdown}
       
     nav.navbar-fixed-bottom.navbar-light.bg-faded(style={ 'padding-top': '20px' })
       p.text-md-center.text-muted

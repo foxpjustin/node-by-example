@@ -75,7 +75,7 @@ gulp.task('cname', false, () => {
 })
 
 gulp.task('build', 'Build pages.', (done) => {
-  run('clean', 'compile', 'cname', done)
+  run('clean', 'compile', done)
 })
 
 gulp.task('watch', false, () => {
@@ -85,7 +85,7 @@ gulp.task('watch', false, () => {
 })
 
 gulp.task('develop', 'Develop in realtime!', (done) => {
-  run('clean', 'compile', 'watch', done)
+  run('build', 'watch', done)
 })
 
 gulp.task('push', false, (done) => {
@@ -94,5 +94,5 @@ gulp.task('push', false, (done) => {
 })
 
 gulp.task('deploy', 'Deploy recent changes.', (done) => {
-  run('clean', 'compile', 'push', done)
+  run('build', 'cname', 'push', done)
 })
