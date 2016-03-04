@@ -16,7 +16,6 @@
     "gulp-livereload": "3.8.1",
     "gulp-markdown": "1.2.0",
     "gulp-util": "3.0.7",
-    "gulp-watch": "4.3.5",
     "jade": "1.11.0",
     "marked": "0.3.5",
     "moment": "2.11.1",
