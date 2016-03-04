@@ -7,6 +7,8 @@ in Node.js. It will print the classic "Hello World" message.
 console.log(`Hello World`)
 ```
 
+[`console`](https://nodejs.org/api/console.html) is a global variable available in all modules.
+
 To run the program, put the code in `hello-world.js` and run
 
 ```sh
